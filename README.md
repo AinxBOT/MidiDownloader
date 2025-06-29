@@ -32,5 +32,6 @@ pkg install git
 pkg install python
 git clone https://github.com/AinxBOT/MidiDownloader
 cd MidiDownloader
+termux-setup-storage
 pip install -r requirements.txt
 python midi.py
